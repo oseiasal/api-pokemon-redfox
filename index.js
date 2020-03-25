@@ -21,7 +21,7 @@ const DATABASE_NAME = "pokemon";
 
 
 // inicia o sistema na porta 80; o callback conecta ao db
-app.listen(80, () => {
+app.listen(8088, () => {
 
     MongoClient.connect(CONNECTION_URL, { useNewUrlParser: true }, (error, client) => {
         if (error) {
