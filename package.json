@@ -1,0 +1,22 @@
+{
+  "name": "api-pokemon-redfox",
+  "version": "1.0.0",
+  "description": "Api para o processo seletivo. Usar mongodb.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon" : "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "pokemon"
+  ],
+  "author": "Oseias Alves do Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "nodemon": "^2.0.2"
+  }
+}
